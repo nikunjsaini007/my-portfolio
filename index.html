@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikunj Saini</title>
+</head>
+
+<canvas id="particle-canvas"></canvas>
+<body>
+    <header>
+        <nav>
+            <div class="navbar-mylogo" id="home">
+                <a href="#">
+                    <img src="assets/logo.png" alt="NS Logo" class="logo-icon">
+                    NIKUNJ SAINI
+                </a>
+            </div>
+            <div class="navbar-goto">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+            </div>
+
+
+<div class="hamburger" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+</div>
+
+            <div class="navbar-logos">
+                <div class="navbar-social">
+                    <a href="https://github.com/nikunjsaini007" target="_blank" class="icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/nikunjxd" target="_blank" class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nikunjsaini007/" target="_blank" class="icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:contact.nikunjxd@gmail.com" target="_blank" class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <div class="welcome">
+        Hi, I'm <span class="name">Nikunj Saini</span>
+    </div>
+    <div class="sub-welcome"></div>
+    <div class="description">I'm a Computer Science student fascinated by automobiles, robotics, aviation, and engineering. 
+        I love combining curiosity, creativity, and technology to bring ideas to life.
+    </div>
+
+    <div class="about-me" id="about">// About Me ──────── </div>
+    <div class="about-me-text">I'm currently a <span class="highlight">Computer Science</span> student, with a passion for <span class="highlight">building projects, experimenting with tech, and exploring complex systems.</span>
+         I enjoy creating apps, diving into programming, and learning how things work - from software to robotics, automobiles, aviation, and heavy engineering.
+
+        <p>Here are some technologies and skills I'm currently learning:
+
+        <div class="li1">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Full-Stack Development</li>
+            <li>C++ </li>
+        </div>
+
+        <li>AI Application Development (LLMs, AI APIs) </li>
+        <li>Data Structures & Algorithms</li>
+        <li>Prompt Engineering</li>
+        <li>Robotics Programming</li>
+        </p>
+
+        <p>Beyond coding, I love <span class="highlight">gaming, high-performance vehicles, robotics, aviation, and large-scale engineering projects. </span>
+            I also enjoy building side projects, making content, and experimenting with tech in creative ways - anything that lets me <span class="highlight">combine my technical skills with my passions.</span>
+            <p>I'm naturally curious and always looking for ways to <span class="highlight">turn ideas into real, exciting projects</span> that are fun, functional, and impactful.</p>
+    </div>
+
+    <div class="experience" id="experience">// Experience ────────</div>
+    <div class="experience-text">
+        <p>I've worked on a wide range of <span class="highlight">personal projects</span>, from <span class="highlight">small websites and web applications</span> to <span class="highlight">AI experiments and interactive systems</span>.
+            I enjoy pushing the limits of what I can build and experimenting with <span class="highlight">modern technologies, web frameworks, and cloud tools</span> to create functional and creative solutions.
+        </p>
+
+        <p>On the side, I create content on <span class="highlight">YouTube and Twitch</span>, sharing my passion for <span class="highlight">gaming, technology, and creative projects</span>. This allows me to combine <span class="highlight">technical skills with creativity</span>, 
+            whether it's coding a new project, designing interactive features, or producing and editing videos.
+        </p>
+
+        <p>Every project I take on is a chance to <span class="highlight">learn, experiment, 
+            and build something meaningful</span>, whether it's software, AI applications, or creative content.
+        </p>
+    </div>
+
+    <div class="projects" id="projects">// Projects ────────</div>
+    <div class="project-cards">
+
+
+        <div class="project-card">
+            <a href="#projects" target="">
+                <div class="overlay"></div>
+                <div class="project-content">
+                    <span class="project-page-text">StatCraft
+                        <p>A gamified tracker for study and workouts - log your sessions, earn XP, level up, and unlock fun achievements. 
+                        </p>
+                    </span>
+                    <span class="tech">Electron, Node.js, JavaScript, HTML, CSS</span>
+                </div>
+            </a>
+        </div>
+
+        <br>
+        <div class="project-card">
+            <a href="https://github.com/nikunjsaini007/Essenz.ai" target="_blank">
+                <div class="overlay"></div>
+                <div class="project-content">
+                    <span class="project-page-text">Essenz.ai
+                        <p>AI-powered study assistant with PDF summarization and an interactive AI chatbot for smarter learning.</p>
+                    </span>
+                    <span class="tech">Flask, Python, HTML, CSS, JS, SQLAlchemy, OpenAI API</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <p>Built and designed by <span class="highlight">Nikunj Saini</span></p>
+        <p>All rights reserved. &copy; 2025</p>
+    </footer>
+
+</body>
+<script src="main.js"></script>
+</html>
