@@ -1,5 +1,7 @@
 # My Portfolio
 
+Check out my live portfolio: [my-portfolio](https://nikunjsaini007.github.io/my-portfolio/)  
+
 Welcome to my personal portfolio website!  
 This site showcases my projects, skills, and interests as a Computer Science student and developer.
 
@@ -20,12 +22,11 @@ I also create content on **YouTube and Twitch**, combining technical skills with
 ## -- Skills & Technologies --
 
 Python, JavaScript, Full-Stack Development, C++, AI Application Development (LLMs, AI APIs), Data Structures & Algorithms, Robotics Programming, Prompt Engineering
+
 ## -- Contact --
 
 Reach me at [contact.nikunjxd@gmail.com](mailto:contact.nikunjxd@gmail.com) or connect via [LinkedIn](https://www.linkedin.com/in/nikunjsaini007/) / [GitHub](https://github.com/nikunjsaini007)
 
 ---
 
-Built and designed by **Nikunj Saini** | © 2026.
-
----
+Built and designed by **Nikunj Saini** | © 2026
